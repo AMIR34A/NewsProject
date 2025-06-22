@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, input, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+@font-face {
+	font-family: 'isans';
+	src: url('../fonts/IRANSans-Bold.eot?#') format('eot'),  /* IE6–8 */ url('../fonts/IRANSans-Bold.woff2') format('woff2'),  /* Chrome36+, Opera24+*/ url('../fonts/IRANSans-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'isans';
+	src: url('../fonts/IRANSANSExpanded.eot?#') format('eot'),  /* IE6–8 */ url('../fonts/IRANSANSExpanded.woff2') format('woff2'),  /* Chrome36+, Opera24+*/ url('../fonts/IRANSANSExpanded.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	font-weight: normal;
+}
+body {
+	direction: rtl;
+	font: 12px isans;
+}
+.container {
+	width: 980px;
+	margin: 0 auto
+}
+.topmenu {
+	background: #3f3f3f;
+	width: 100%;
+	color: #FFFFFF
+}
+.topmenu ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	display: block
+}
+.topmenu ul li a:hover {
+	color: #f1c40f
+}
+.topmenu ul {
+	list-style: none
+}
+.topmenu ul li {
+	float: right
+}
+.clear {
+	clear: both
+}
+.logoarea {
+	margin: 25px 0;
+	float: right;
+	width: 400px
+}
+.logoarea img {
+	float: right;
+	margin: 5px 0 0 10px
+}
+.logoarea h1 {
+	font: bold 18px isans
+}
+.logoarea h2 {
+	font: 16px isans;
+	color: #505050;
+}
+.bannerhead {
+	width: 468px;
+	height: 60px;
+	float: left;
+	margin: 30px;
+}
+.socialicons {
+	float: left;
+}
+.socialicons a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 6px 5px;
+	padding: 0px 10px;
+	display: block ; border-radius:3px
+}
+.fbicon a:hover {
+	background: #3b5998
+}
+.twicon a:hover {
+	background: #00aced
+}
+.pnicon a:hover {
+	background: #cb2027
+}
+
+
+
+
+

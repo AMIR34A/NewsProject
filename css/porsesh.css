@@ -1,0 +1,26 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+@font-face {
+    font-family: isans;
+    src: url("fonts/IRANSans-Bold.eot?#")format('eot'),url("fonts/IRANSans-Bold.woff")format('woff');
+    font-weight: bold;
+}
+#question_title{
+    background-color: #FFF;
+    border: none;
+    color: #2f3239;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: italic;
+    resize: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: 20px;
+}

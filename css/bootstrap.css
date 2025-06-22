@@ -1,0 +1,250 @@
+
+
+
+
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+     -moz-transition: 0.6s ease-in-out left;
+       -o-transition: 0.6s ease-in-out left;
+          transition: 0.6s ease-in-out left;
+}
+
+.carousel .item > img {
+  display: block;
+  line-height: 1;
+}
+
+.carousel .active,
+.carousel .next,
+.carousel .prev {
+  display: block;
+}
+
+.carousel .active {
+  left: 0;
+}
+
+.carousel .next,
+.carousel .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.carousel .next {
+  left: 100%;
+}
+
+.carousel .prev {
+  left: -100%;
+}
+
+.carousel .next.left,
+.carousel .prev.right {
+  left: 0;
+}
+
+.carousel .active.left {
+  left: -100%;
+}
+
+.carousel .active.right {
+  left: 100%;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+ /* font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+ -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);*/
+}
+
+.carousel-control.right {
+  right: 0px;
+  left: auto;
+}
+
+.carousel-control:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 15px;
+  background: #444444;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.carousel-caption h4,
+.carousel-caption p {
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.carousel-caption h4 {
+  margin: 0 0 5px;
+}
+
+.carousel-caption p {
+  margin-bottom: 0;
+}
+
+.hero-unit {
+  padding: 60px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.hero-unit h1 {
+  margin-bottom: 0;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: inherit;
+}
+
+.hero-unit li {
+  line-height: 30px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.affix {
+  position: fixed;
+}
+
+
+
+.contact-left form input, .contact-left form textarea {
+
+    border-color: #3A95CF;
+    display: block;
+    font: 11px tahoma;
+    padding: 4px 5px 6px;
+    height: 28px;
+
+}
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+
+    display: inline-block;
+    height: 20px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    vertical-align: middle;
+    border-radius: 4px;
+
+}
+input, textarea:focus {
+
+    outline: 0px none;
+
+}
+input, textarea, .uneditable-input {
+
+    margin-left: 0px;
+
+}
+input, textarea, .uneditable-input {
+
+    margin-left: 0px;
+
+}
+input, textarea, .uneditable-input {
+
+    width: 206px;
+
+}
+input, button, select, textarea {
+
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+label, input, button, select, textarea {
+
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+
+}
+button, input {
+
+    line-height: normal;
+
+}
+button, input, select, textarea {
+
+    margin: 0px;
+    font-size: 100%;
+    vertical-align: middle;
+
+}

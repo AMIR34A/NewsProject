@@ -82,9 +82,9 @@ Feel free to fork this project, improve it, and submit pull requests!
 
 ---
 
-## 📄 License
+## 📄 Web site
 
-This project is open-source and available under the [MIT License](LICENSE).
+(https://newsproject.infy.uk/index.php)
 
 ---
 
